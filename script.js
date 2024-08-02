@@ -1,7 +1,4 @@
-var todo_list = [{
-    name:"LEARN JAVA",
-    dueDate:"3-10-2003"
-}];
+var todo_list = [];
 
 function add_on_div(){
     var add_div = '';
