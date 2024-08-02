@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-color: black;
+}
+.view, .input_view{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.input_view{
+    margin-bottom: 10px;
+}
+.user_input,.user_input{
+    font-size: 15px;
+    padding: 6px;
+}
+.add_button,.delete_button{
+    padding-block: 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.add_button{
+    background-color: green;
+}
+.delete_button{
+    background-color: rgb(110, 0, 0);
+}
+.input_view{
+    align-items: stretch;
+}
